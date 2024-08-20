@@ -37,4 +37,8 @@ public class LiftService {
         }
         return liftId;
     }
+
+    public void createBuildingLift(int floors,int liftCount){
+        building = new Building(floors, liftCount);
+    }
 }
